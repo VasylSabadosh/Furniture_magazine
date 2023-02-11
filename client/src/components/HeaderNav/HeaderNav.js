@@ -13,11 +13,11 @@ const HeaderNav = () => {
                 </div>
                 <div className='header_right'>
                     <NavLink className='headerLink' to = '/'>Головна</NavLink>
-                    <NavLink className='headerLink' to = 'kitchens'>Кухні</NavLink>
-                    <NavLink className='headerLink' to = 'wardrobes'>Шафи</NavLink>
-                    <NavLink className='headerLink' to = 'tables'>Столи</NavLink>
-                    <NavLink className='headerLink' to = 'chairs'>Стільці</NavLink>
-                    <NavLink className='headerLink' to = 'beds'>Мягкі меблі</NavLink>
+                    <NavLink className='headerLink' to = '/kitchens'>Кухні</NavLink>
+                    <NavLink className='headerLink' to = '/wardrobes'>Шафи</NavLink>
+                    <NavLink className='headerLink' to = '/salon'>Салон</NavLink>
+                    <NavLink className='headerLink' to = '/'>Контакти</NavLink>
+                    <NavLink className='headerLink' to = '/auth'>логін</NavLink>
                     {/* <NavLink className='headerLink' to = 'about'>Про нас</NavLink> */}
                 </div>
             </div>

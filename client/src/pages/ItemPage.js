@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Chairs = () => {
+const ItemPage = () => {
     return (
         <div>
-            Chairs
+            ItemPage
         </div>
     );
 };
 
-export default Chairs;
+export default ItemPage;

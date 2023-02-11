@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Tables = () => {
+const Salon = () => {
     return (
         <div>
-            Tables
+            Салон
         </div>
     );
 };
 
-export default Tables;
+export default Salon;
