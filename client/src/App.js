@@ -4,16 +4,18 @@ import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import { authRoutes, publicRoutes } from './routes';
 import Home from './pages/Home';
+import { useContext } from 'react';
+import {Context} from './index';
 
 
 function App() {
 
-  const isAuth = false
+  const {user} = useContext(Context)
   return (
     <>
     <Routes>
       <Route path='/' element = {<Layout />}>
-          {isAuth && authRoutes.map(({path, element}) =>
+          {user.isAuth && authRoutes.map(({path, element}) =>
             <Route key={path} path={path} element={element}/>
           )}
           {publicRoutes.map(({path, element}) =>

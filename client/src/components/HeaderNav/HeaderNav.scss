@@ -40,7 +40,6 @@
 }
 
 .headerLink {
-    display: block;
     height: 2rem;
     color: white;
     font-size: 1.5rem;
@@ -49,6 +48,11 @@
     &:hover {
         opacity: 1;
     }
+}
 
+.auth {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
 }
 
