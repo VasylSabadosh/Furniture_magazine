@@ -1,7 +1,7 @@
 import React from 'react';
-import HeaderBackgrounde from '../components/HeaderBackgrounde/HeaderBackgrounde';
-import backgrounde from '../img/kitchenbg.jpg';
-import HeaderArticle from '../components/HeaderArticle/HeaderArticle.js';
+import HeaderBackgrounde from '../../components/HeaderBackgrounde/HeaderBackgrounde';
+import backgrounde from '../../img/kitchenbg.jpg';
+import HeaderArticle from '../../components/HeaderArticle/HeaderArticle.js';
 
 const Kitchens = () => {
   return (

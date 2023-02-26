@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import Layout from './components/Layout/Layout';
 import { authRoutes, publicRoutes } from './routes';
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 import { useContext } from 'react';
 import {Context} from './index';
 

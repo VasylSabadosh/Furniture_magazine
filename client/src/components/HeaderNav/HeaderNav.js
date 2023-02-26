@@ -26,7 +26,7 @@ const HeaderNav = observer(() => {
                             <button >Вийти</button>
                         </NavLink>
                         :
-                        <NavLink className='headerLink'>
+                        <NavLink className='headerLink' to='/auth'>
                             <button onClick={() => user.setIsAuth(true)}>Увійти</button>
                         </NavLink>
                     }

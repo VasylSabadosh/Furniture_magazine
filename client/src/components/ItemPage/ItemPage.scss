@@ -1,0 +1,36 @@
+.itemPage {
+    background-color: white;
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    padding: 35px;
+}
+
+.itemPageContainer {
+    height: 70vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+.itemPageLeft {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    button{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.itemPageRight {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+.itemPageRightImg {
+    width: 60%;
+}
