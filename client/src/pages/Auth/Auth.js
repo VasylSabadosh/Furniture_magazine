@@ -4,8 +4,8 @@ import './Auth.scss';
 import {  REGISTRATION_ROUTE, LOGIN_ROUTE } from "../../utils/consts"
 
 const Auth = () => {
-    const locagtion = useLocation();
-    const isLogin = locagtion.pathname === LOGIN_ROUTE
+    const location = useLocation();
+    const isLogin = location.pathname === LOGIN_ROUTE
     return (
         <div className='authContainer'>
             <div className='formContainer'>

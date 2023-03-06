@@ -1,18 +1,15 @@
-import React, { useContext } from 'react';
-import {observer} from 'mobx-react-lite';
+import React from 'react';
 import Card from '../Card/Card';
 import './ItemList.scss';
-import {Context} from '../../index';
 
-const ItemList = observer(() => {
-    const {item} = useContext(Context);
+const ItemList = ({item, setSelectedItem}) => {
     return (
         <div className='item_list'>
             {item._items.map(item =>
-                <Card key={item.id} item={item}/>
+                <Card key={item.id} item={item} setSelectedItem={setSelectedItem} />
                 )}
         </div>
     );
-});
+};
 
 export default ItemList;

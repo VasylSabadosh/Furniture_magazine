@@ -13,7 +13,7 @@ const ItemPage = ({selectedItem}) => {
                     <button>to basket</button>
                 </div>
                 <div className='itemPageRight'>
-                    <img alt ='#' src={selectedItem.img} className='itemPageRightImg' onClick={}></img>
+                    <img alt ='#' src={selectedItem.img} className='itemPageRightImg'></img>
                 </div>
             </div>
         </div>

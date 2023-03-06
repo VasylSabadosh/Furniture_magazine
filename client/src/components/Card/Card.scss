@@ -3,9 +3,16 @@
     height: 150px;
     border: 1px solid black;
     cursor: pointer;
+    background-color: white;
+    align-items: center;
+
+    display: flex;
+    object-fit: cover;
+    overflow: hidden;
+
 }
 
 .card_img {
     width: 150px;
-    height: 150px;
+    height: auto;
 }

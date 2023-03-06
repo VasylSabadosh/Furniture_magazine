@@ -8,7 +8,6 @@ import { observer } from 'mobx-react-lite';
 
 const HeaderNav = observer(() => {
     const {user} = useContext(Context);
-    console.log(user)
     return (
         <div className='header'>
             <div className='header_nav'>
@@ -20,7 +19,7 @@ const HeaderNav = observer(() => {
                     <NavLink className='headerLink' to='/kitchens'>Кухні</NavLink>
                     <NavLink className='headerLink' to='/wardrobes'>Шафи</NavLink>
                     <NavLink className='headerLink' to='/salon'>Салон</NavLink>
-                    {user.isAuth ?
+                    {user._isAuth ?
                         <NavLink className='auth'>
                             <button >Адмін</button>
                             <button >Вийти</button>

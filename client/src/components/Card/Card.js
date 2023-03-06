@@ -1,13 +1,14 @@
 import React from 'react';
 import './Card.scss';
 
-const Card = ({item}) => {
+const Card = ({item, setSelectedItem}) => {
     return (
         <div>
-            <div className='card'>
+            <div className='card' onClick={()=> setSelectedItem(item)}>
                 <img className='card_img' alt='' src={item.img}></img>
-                <div>{item.name}</div>
             </div>
+            <div>{item.name}</div>
+
         </div>
     );
 };

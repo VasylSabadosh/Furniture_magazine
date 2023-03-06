@@ -6,10 +6,12 @@ import './TypeBar.scss';
 const TypeBar = observer(() => {
     const {item} = useContext(Context)
     return (
-        <div className='typeBar'>
+        <div className='type_bar'>
             {item._types.map(type=>
-            <div key={type.id}>
-                {type.name}
+            <div
+            key={type.id}
+            onClick={()=>item.setSelectedType(type)}>
+            {type.name}
             </div>
             )}
         </div>
