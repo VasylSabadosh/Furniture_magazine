@@ -11,6 +11,7 @@ import {Context} from './index';
 function App() {
 
   const {user} = useContext(Context)
+
   return (
     <>
     <Routes>

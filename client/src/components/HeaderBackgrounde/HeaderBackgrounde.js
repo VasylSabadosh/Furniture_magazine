@@ -2,10 +2,10 @@ import React from 'react';
 import './HeaderBackgrounde.scss';
 
 
-const HeaderBackgrounde = ({img, style}) => {
+const HeaderBackgrounde = ({img}) => {
     return (
         <div className='backgrounde'>
-            <img className='backgrounde__img' src={img} style = {style} alt='#'></img>
+            <img className='backgrounde__img' src={img} alt='#'></img>
         </div>
     );
 };

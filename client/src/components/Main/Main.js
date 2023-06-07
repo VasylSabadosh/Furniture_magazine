@@ -22,7 +22,7 @@ const Main = () => {
     return (
         <div>
             <div className='main'>
-                <HeaderBackgrounde img={backgrounde} style={{ objectPosition: "0 -500px" }} />
+                <HeaderBackgrounde img={backgrounde}/>
                 <div className='container'>
                     <HeaderArticle
                         text={'Great style is easy.'}
