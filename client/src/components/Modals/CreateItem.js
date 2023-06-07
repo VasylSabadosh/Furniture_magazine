@@ -1,7 +1,7 @@
 import React from 'react';
 import './Modal.scss';
 
-const Modal = ({open,onClose}) => {
+const CreateItem = ({open,onClose}) => {
     if(!open) return null
     return (
         <div className='modal' onClick={onClose}>
@@ -14,4 +14,4 @@ const Modal = ({open,onClose}) => {
     );
 };
 
-export default Modal;
+export default CreateItem;
