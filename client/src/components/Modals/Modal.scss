@@ -8,10 +8,8 @@
 
 .modal__container {
     width: 60%;
-    height: 80%;
     display: flex;
-    flex-direction: row-reverse;
-    position: fixed;
+    position: relative;
     top: 50%;
     left: 50%;
     z-index: 0;
@@ -21,7 +19,56 @@
 }
 
 .close__btn {
+    position: absolute;
+    top: 0;
+    right: 0;
     margin: 2rem;
     font-weight: bold;
     cursor: pointer;
+}
+
+.modal__main {
+    width: 100%;
+}
+
+.modal__header {
+    margin: 3rem;
+    &:after{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        opacity: .5;
+        background-color: black;
+    }
+}
+
+.modal__body {
+    margin: 2rem;
+    font-size: 1.5rem;
+
+    input {
+        width: 100%;
+        height: 2rem;
+    }
+}
+
+.modal__body__dropdawn {
+    margin: 2rem;
+    label {
+        display: block;
+        width: 100%;
+    }
+    select {
+        width: 100%;
+        height: 2rem;
+
+    }
+}
+
+.modal__footer {
+    margin: 2rem;
+    button {
+        margin-right: 2rem;
+    }
 }
